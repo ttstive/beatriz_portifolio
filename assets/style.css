@@ -1,0 +1,149 @@
+#MainMenu, footer, header {
+    visibility: hidden;
+}
+
+.custom-font {
+    font-family: 'Roboto', sans-serif;  /* substitua 'Roboto' pela fonte desejada */
+    font-size: 24px;
+    color: #e1e1e1;  /* cor do texto */
+    font-weight: bold;  /* negrito */
+}
+.custom-title {
+    font-size: 30px; /* Ajuste o tamanho conforme necessário */
+}
+
+.custom-text {
+    font-size: 24px; /* Ajuste o tamanho conforme necessário */
+}
+
+.download-button, .email-button {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.download-button {
+    background-color: #007BFF;
+}
+
+.email-button {
+    background-color: #0d2666;
+}
+
+.download-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #007BFF;
+}
+
+.email-button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #001243;
+}
+
+.linkedin-image {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.linkedin-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    animation: pulse 1s infinite;
+}
+.linkedin-image {
+    background-color: #ffffff;  /* azul claro */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+        transform: scale(1.15);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+
+/* style.css */
+
+/* Estilo do cartão */
+.card {
+    border: 1px solid #e0e0e0; /* Borda do cartão */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 16px; /* Espaçamento interno */
+    margin: 16px; /* Espaçamento externo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra do cartão */
+    background-color: #f9f9f9; /* Cor de fundo do cartão */
+}
+
+/* Estilo para o título */
+.custom-title {
+    font-size: 24px; /* Tamanho da fonte do título */
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Estilo para o texto */
+.custom-text {
+    font-size: 20px; /* Tamanho da fonte do texto */
+    color: #ffffff; /* Cor do texto */
+}
+
+/* Estilo para o título principal da página */
+h1 {
+    font-size: 32px; /* Tamanho da fonte do título principal */
+    color: #ffffff; /* Cor do texto principal */
+}
+
+/* Estilo do input de feedback */
+input[type="text"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda do input */
+    border-radius: 4px; /* Cantos arredondados */
+}
+video {
+    width: 100%; /* Ocupa a largura total da coluna */
+    height: auto; /* Mantém a proporção */
+    max-width: 600px; /* Define o tamanho máximo do vídeo */
+    border-radius: 8px; /* Bordas arredondadas para um visual mais suave */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
+}
+/* Estilos para o fundo branco e espaçamento */
+.video-container {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaço entre os vídeos */
+}
+
+h3 {
+    color: #ffffff; /* Cor do título */
+}
+
+p {
+    color: #ffffff; /* Cor do texto da descrição */
+}
+
+@media (max-width: 768px) {
+    .linkedin-image {
+        margin-bottom: 20px;  /* Espaçamento entre as imagens na visualização mobile */
+    }
+}
