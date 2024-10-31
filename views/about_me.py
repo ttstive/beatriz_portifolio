@@ -17,7 +17,6 @@ def load_html(file_path):
 # Escondendo o menu de configurações
 hide_streamlit_style = """
     <style>
-       #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
     </style>
@@ -26,7 +25,7 @@ hide_streamlit_style = """
 
 
 # Carregar CSS e HTML
-css_file = "assets/style.css"
+css_file = "assets/estilo.css"
 html_file = "sobremim.html"
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.markdown(load_css(css_file), unsafe_allow_html=True)

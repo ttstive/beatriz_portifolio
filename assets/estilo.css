@@ -1,5 +1,27 @@
 #MainMenu, footer, header {
     visibility: hidden;
+    background-color: black;
+}
+/* Forçar fundo escuro */
+body, .stApp {
+    background-color: #121212 !important;
+    color: #FFFFFF !important;
+}
+
+/* Personalizar elementos específicos, se necessário */
+.css-18e3th9 {
+    background-color: #1E1E1E !important; /* Fundo dos contêineres */
+    color: #FFFFFF !important; /* Cor do texto */
+}
+
+/* Outros ajustes no tema escuro */
+.css-1d391kg {
+    color: #FFFFFF !important; /* Títulos em branco */
+}
+
+/* Borda ou sombra para destaque */
+.css-1aumxhk {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
 }
 
 .custom-font {

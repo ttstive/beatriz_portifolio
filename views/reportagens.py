@@ -6,7 +6,7 @@ def load_css(file_path):
         return f"<style>{f.read()}</style>"
 
 # Carregar o CSS
-st.markdown(load_css("assets/style.css"), unsafe_allow_html=True)
+st.markdown(load_css("assets/estilo.css"), unsafe_allow_html=True)
 
 # Escondendo o menu de configurações
 hide_streamlit_style = """

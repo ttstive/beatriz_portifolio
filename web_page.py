@@ -14,13 +14,7 @@ def load_html(file_path):
         return f.read()
 
 # Escondendo o menu de configurações
-hide_streamlit_style = """
-    <style>
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
-    </style>
-"""
+
 
 
 about_me = st.Page(
